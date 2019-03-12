@@ -49,6 +49,6 @@ storiesOf('React Full Header', module)
       subtitle="TDD With JS"
       bgColor="#3299BB"
       textColor="#FF9900"
-      video="http://callmenick.com/_development/video/full-screen-background-video/media/demo.mp4"
+      video="http://html5videoformatconverter.com/data/images/happyfit2.mp4"
     />
   ));
