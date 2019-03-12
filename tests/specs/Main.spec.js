@@ -83,4 +83,16 @@ describe('<FullHeader />', () => {
       expect(wrapper).to.have.style('font-family').equal('open-sans');
     });
   });
+
+  context('BgImg', () => {
+    it('should have background-image empty when none is passed', () => {
+      const wrapper = shallow(<FullHeader />);
+      expect(wrapper).to.have.style('background-image').equal('url()');
+    });
+
+    it('should have background-image equal bg.jpg when bg.jpg is passed', () => {
+      const wrapper = shallow(<FullHeader bgImg="bg.jpg" />);
+      expect(wrapper).to.have.style('background-image').equal('url(bg.jpg)');
+    });
+  });
 });
