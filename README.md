@@ -1,12 +1,6 @@
-# Lyef React Component
-[![Build Status](https://travis-ci.org/lyef/lyef-react-component.svg)](https://travis-ci.org/lyef/lyef-react-component/)
-![Minified component file size](https://badge-size.herokuapp.com/lyef/lyef-react-component/master/dist/Main.min.js.svg)
-![Gziped component file size](https://badge-size.herokuapp.com/lyef/lyef-react-component/master/dist/Main.min.js.svg?compression=gzip)
-[![NPM version](https://badge-me.herokuapp.com/api/npm/lyef-react-component.png)](http://badges.enytc.com/for/npm/lyef-react-component)
+# Full Header React Component
 
-> An opinionated boilerplate for reusable and declouped react components.
-
-The main idea of this project was based on develop decoupled components in a isolated environment. We don't need to use an entire application to build our components, we just need some place to run and test them.
+A Full Header React Component made with tests and stories.
 
 ## Getting Started
 
